@@ -1,0 +1,230 @@
+.container {
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+  .left-panel{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    left: 0;
+  }
+  .right-panel{
+    position: fixed;
+    width: 50%;
+    height: 100%;
+    left: 50%;
+  }
+  .image-part {
+    position: absolute;
+    background-color: #000842;
+    width: calc(100% - 25px);
+    right: 20px;
+    left: 0;
+    height: calc(100% - 40px);
+    top: 20px;
+    border-radius: 30px;
+    overflow: hidden;
+    z-index: 99999;
+  }
+  .move-left{
+    transform: translateX(-100%);
+    transition: transform 1s ease;
+  }
+  .move-right{
+    transform: translateX(0);
+    transition: transform 1s ease;
+  }
+  .image-part img{
+    margin-left: 8%;
+  }
+  .text{
+    position: absolute;
+    height: 60px;
+    font-weight: 600px;
+    font-size: 40px;
+    font-family: Poppins, sans-serif;
+    line-height: 60px;
+    color: #FFFFFF;
+    padding: 10px 0 0 60px;
+  }
+  .logo, .logo-vxod{
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    padding: 15px;
+  }
+  .btn{
+    position: absolute;
+    margin-top: 50%;
+  }
+  .sign-up{
+    position: flex;
+    width: 351px;
+    height: 490px;
+    margin: 13% 0 0 25%;
+  }
+  .sign-up-text{
+    position: absolute;
+    width: 280px;
+    height: 105px;
+    overflow: hidden;
+  }
+  .sign-up-text1{
+    position: absolute;
+    font-weight: 600;
+    font-size: 25px;
+    margin: 0 0 0 10px;
+    font-family: Poppins, sans-serif;
+    line-height: 60px;
+    color: #000000;
+  }
+  .sign-up-text2{
+    position: absolute;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 32px 0 0 10px;
+    font-family: Poppins, sans-serif;
+    line-height: 60px;
+    color: #000000;
+  }
+  .sign-up-text3{
+    position: absolute;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 57px 0 0 10px;
+    font-family: Poppins, sans-serif;
+    line-height: 60px;
+    color: #000000;
+  }
+  .btn{
+    position: absolute;
+    width: 100px;
+    margin: 21px 0 0 9px;
+    background-color: #000842;
+    color: #FFFFFF;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  .username-input, .email-input, .password-input, .email-input-vxod, .password-input-vxod{
+    position: absolute;
+    width: 50%;
+    height: 35px;
+    margin-top: 138px;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 60px;
+    color: #535252;
+    border-radius: 10px;
+    border-color: #000842;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  }
+  .username-input:focus{
+    outline: none;
+  }
+  .email-input{
+    margin-top: 215px;
+  }
+  .password-input{
+    margin-top: 295px;
+  }
+  .btn-register, .btn-login{
+    width: 80%;
+    height: 35px;
+    margin: 115% 0 0 10%;
+    background-color: #000842;
+    color: #FFFFFF;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 32px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  .btn-register, .btn-login:active {
+    transform: scale(0.9);
+  }
+  .btn-eye, .btn-eye-vxod {
+    position: absolute;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    margin-top: 45%;
+    margin-left: 310px;
+  }
+  .btn-2{
+    width: 120px;
+    margin: 21px 0 0 9px;
+    background-color: #000842;
+    color: #FFFFFF;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  .sign-in{
+    position: flex;
+    width: 351px;
+    height: 490px;
+    margin: 13% 0 0 25%;
+    z-index: 1;
+  }
+  .sign-in-text{
+    position: absolute;
+    width: 280px;
+    height: 105px;
+    overflow: hidden;
+  }
+  .sign-in-text1{
+    position: absolute;
+    font-weight: 600;
+    font-size: 25px;
+    margin: 0 0 0 10px;
+    font-family: Poppins, sans-serif;
+    line-height: 60px;
+    color: #000000;
+  }
+  .sign-in-text2{
+    position: absolute;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 32px 0 0 10px;
+    font-family: Poppins, sans-serif;
+    line-height: 60px;
+    color: #000000;
+  }
+  .sign-in-text3{
+    position: absolute;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 57px 0 0 10px;
+    font-family: Poppins, sans-serif;
+    line-height: 60px;
+    color: #000000;
+  }
+  .email-input-vxod{
+    position: absolute;
+    margin-top: 150px;
+  }
+  .password-input-vxod{
+    position: absolute;
+    margin-top: 230px;
+  }
+  .btn-login{
+    margin-top: 330px;
+  }
+  .btn-eye-vxod{
+    margin-top: 243px;
+  }
+  .logo-vxod{
+    right: 3px;
+  }
