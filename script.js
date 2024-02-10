@@ -25,32 +25,6 @@ document.addEventListener('DOMContentLoaded', function() {
         logoVxod.style.display = "none"
     })
     const passwordInput = document.querySelector(".password-input")
-    const passwordInputTwo = document.querySelector(".password-input-vxod")
-    const btnEye = document.querySelector(".btn-eye")
-    const btnEyeTwo = document.querySelector(".btn-eye-vxod")
-    const icon = document.querySelector(".icon")
-    const iconTwo = document.querySelector(".icon-2")
-    let click = true
-
-    function openEye(){
-        if(click){
-            passwordInput.type = "text"
-            passwordInputTwo.type = "text"
-            icon.src = "icons/eye.svg"
-            iconTwo.src = "icons/eye.svg"
-            click = false
-        }
-        else{
-            passwordInput.type = "password"
-            passwordInputTwo.type = "password"
-            click = true
-            icon.src = "icons/eye-fill.svg"
-            iconTwo.src = "icons/eye-fill.svg"
-        }
-    }
-    btnEye.addEventListener('click', openEye)
-    btnEyeTwo.addEventListener('click', openEye)
-
     const buttonRegister = document.querySelector(".btn-register")
     const buttonLogin = document.querySelector(".btn-login")
     const usernameInput = document.querySelector(".username-input")

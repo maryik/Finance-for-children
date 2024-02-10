@@ -149,17 +149,9 @@
     cursor: pointer;
     transition: transform 0.3s ease;
   }
-  .btn-register, .btn-login:active {
-    transform: scale(0.9);
-  }
-  .btn-eye, .btn-eye-vxod {
-    position: absolute;
-    background: transparent;
-    border: none;
-    cursor: pointer;
-    margin-top: 45%;
-    margin-left: 310px;
-  }
+  .btn-register:active, .btn-login:active {
+  transform: scale(0.9);
+}
   .btn-2{
     width: 120px;
     margin: 21px 0 0 9px;
@@ -221,9 +213,6 @@
   }
   .btn-login{
     margin-top: 330px;
-  }
-  .btn-eye-vxod{
-    margin-top: 243px;
   }
   .logo-vxod{
     right: 3px;
