@@ -32,17 +32,46 @@ document.addEventListener('DOMContentLoaded', function() {
     const passwordInputVxod = document.querySelector(".password-input-vxod")
     const emailInput = document.querySelector(".email-input")
 
-    
     buttonRegister.addEventListener('click', function(){
-        usernameInput.value = ""
-        emailInput.value = ""
-        passwordInput.value = ""
-    })
+        const register = {
+            username: usernameInput.value,
+            email: emailInput.value,
+            password:  passwordInput.value,
+        }
+        usernameInput.value = "";
+        emailInput.value = "";
+        passwordInput.value = "";
+        
+        localStorage.setItem('registerData', JSON.stringify(register));
+        let registerData = localStorage.getItem('registerData')
+        registerData = JSON.parse(registerData)
+        console.log(registerData)
+        alert("Вы зарегистрировались")
+    });
     buttonLogin.addEventListener('click', function(){
+        let person = localStorage.getItem('registerData')
+        person = JSON.parse(person)
+        console.log(person)
+        console.log(emailInputVxod.value)
+        console.log(passwordInputVxod.value)
+        if(emailInputVxod.value == person.email && passwordInputVxod.value == person.password){
+            alert("Вы вошли")
+        }
+        else if(emailInputVxod.value != person.email){
+            alert("Неправильная почта")
+        }
+        else if(passwordInputVxod.value != person.password){
+            alert("Неправильный пароль")
+        }
+        else{
+            alert("Такого пользователя не существет")
+        }
         emailInputVxod.value = ""
         passwordInputVxod.value = ""
     })
-    
+    for (item in localStorage){
+        console.log(item)
+    }
 })
 
 
