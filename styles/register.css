@@ -217,21 +217,22 @@
   .logo-vxod{
     right: 3px;
   }
-  @media (max-width:  768px) {
+  @media (max-width:  360px) {
     .container{
       margin-top: 5%;
       width: 100%;
       height: 80%;
+      overflow: hidden;
     }
     .image-part{
       position: absolute;
       width: 100%;
-      height: 60%;
+      height: 70%;
     }
     .sign-up-text{
       width: 120%;
       margin-top: 15%;
-      margin-left: -20%;
+      margin-left: -28%;
     }
     .sign-up-text1{
       margin-top: 5%;
@@ -242,25 +243,28 @@
     .sign-up-text3{
       margin-top: 21%;
     }
+    .btn{
+      width: 80px;
+    }
     .username-input, .email-input, .password-input, .email-input-vxod, .password-input-vxod{
       width: 80%;
     }
     .username-input{
       margin-top: 75%;
-      margin-left: -10%;
+      margin-left: -15%;
     }
     .email-input{
       margin-top: 115%;
-      margin-left: -10%;
+      margin-left: -15%;
     }
     .password-input{
       margin-top: 155%;
-      margin-left: -10%;
+      margin-left: -15%;
     }
     .btn-register{
-      width: 45%;
+      width: 40%;
       margin-top: 100%;
-      margin-left: -3%;
+      margin-left: -7%;
     }
     .image-part img{
       width: 100%;
@@ -274,6 +278,35 @@
       font-size: 50px;
       margin-left: -5%;
       align-items: center;
+    }
+    .sign-in-text{
+      width: 120%;
+      margin-top: 15%;
+      margin-left: -28%;
+    }
+    .sign-in-text1{
+      margin-top: 5%;
+    }
+    .sign-in-text2{
+      display: none;
+    }
+    .sign-in-text3{
+      margin-top: 21%;
+    }
+    .btn-2{
+      width: 80px;
+    }
+    .email-input-vxod, .password-input-vxod{
+      width: 80%;
+      margin-left: -20%;
+    }
+    .password-input-vxod{
+      margin-top: 135%;
+    }
+    .btn-login{
+      width: 40%;
+      margin-top: 90%;
+      margin-left: -7%;
     }
   }
   
