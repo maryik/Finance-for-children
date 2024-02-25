@@ -12,14 +12,14 @@ document.addEventListener('DOMContentLoaded', function() {
     button.addEventListener('click', function(){
         imagePart.classList.remove('move-right')
         imagePart.classList.add('move-left')
-        text.textContent = "Sign In to name"
+        text.textContent = "Sign In"
         logo.style.display = "none"
         logoVxod.style.display = "block"
     })
     buttonTwo.addEventListener('click', function(){
         imagePart.classList.remove('move-left')
         imagePart.classList.add('move-right')
-        text.textContent = "Sign Up to name"
+        text.textContent = "Sign Up"
         logo.style.display = "block"
         logoVxod.style.display = "none"
     })
