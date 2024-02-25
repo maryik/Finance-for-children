@@ -126,7 +126,7 @@
     border-color: #000842;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
   }
-  .username-input:focus{
+  .username-input, .email-input, .password-input, .email-input-vxod, .password-input-vxod:focus{
     outline: none;
   }
   .email-input{
