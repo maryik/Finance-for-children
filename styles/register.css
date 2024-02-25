@@ -228,10 +228,11 @@
       position: absolute;
       width: 100%;
       height: 70%;
+      margin-top: 35%;
     }
     .sign-up-text{
       width: 120%;
-      margin-top: 15%;
+      margin-top: 40%;
       margin-left: -28%;
     }
     .sign-up-text1{
@@ -250,20 +251,20 @@
       width: 80%;
     }
     .username-input{
-      margin-top: 75%;
+      margin-top: 105%;
       margin-left: -15%;
     }
     .email-input{
-      margin-top: 115%;
+      margin-top: 145%;
       margin-left: -15%;
     }
     .password-input{
-      margin-top: 155%;
+      margin-top: 185%;
       margin-left: -15%;
     }
     .btn-register{
       width: 40%;
-      margin-top: 100%;
+      margin-top: 115%;
       margin-left: -7%;
     }
     .image-part img{
@@ -281,7 +282,7 @@
     }
     .sign-in-text{
       width: 120%;
-      margin-top: 15%;
+      margin-top: 40%;
       margin-left: -28%;
     }
     .sign-in-text1{
@@ -300,12 +301,15 @@
       width: 80%;
       margin-left: -20%;
     }
+    .email-input-vxod{
+      margin-top: 110%;
+    }
     .password-input-vxod{
-      margin-top: 135%;
+      margin-top: 150%;
     }
     .btn-login{
       width: 40%;
-      margin-top: 90%;
+      margin-top: 100%;
       margin-left: -7%;
     }
   }
